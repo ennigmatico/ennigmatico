@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Portafolio de Andres Lopez: desarrollo Android, backends en tiempo real y soluciones comunitarias con ubicacion GPS."
+    >
+    <title>Andres Lopez | Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">AL</span>
+        <span>Andres Lopez</span>
+      </a>
+      <nav class="nav-links" aria-label="Navegacion principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero-section">
+        <div class="hero-copy">
+          <p class="eyebrow">Android + backends en tiempo real</p>
+          <h1>Construyo herramientas digitales para comunidades, transporte local y respuesta inmediata.</h1>
+          <p class="hero-text">
+            Desarrollo aplicaciones Android nativas, paneles de administracion y servicios backend que conectan
+            ubicacion GPS, usuarios, seguridad y comunicacion en vivo.
+          </p>
+          <div class="hero-actions" aria-label="Acciones principales">
+            <a class="button primary" href="#proyectos">Ver proyectos</a>
+            <a class="button secondary" href="https://github.com/ennigmatico">GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Vista previa del trabajo de Andres">
+          <div class="phone-frame">
+            <div class="phone-status">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="map-panel">
+              <div class="route-line route-a"></div>
+              <div class="route-line route-b"></div>
+              <span class="map-pin pin-main"></span>
+              <span class="map-pin pin-alt"></span>
+              <span class="map-pin pin-small"></span>
+            </div>
+            <div class="alert-card">
+              <span class="pulse-dot"></span>
+              <div>
+                <strong>Alerta activa</strong>
+                <small>Ubicacion compartida en vivo</small>
+              </div>
+            </div>
+          </div>
+          <div class="system-card">
+            <p>Backend</p>
+            <strong>WebSocket + JWT + SQLite</strong>
+            <span>Servicio listo para produccion</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics-strip" aria-label="Resumen profesional">
+        <div>
+          <strong>2</strong>
+          <span>proyectos principales</span>
+        </div>
+        <div>
+          <strong>Android</strong>
+          <span>Kotlin y Jetpack Compose</span>
+        </div>
+        <div>
+          <strong>Realtime</strong>
+          <span>WebSocket y FCM</span>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Trabajo destacado</p>
+          <h2>Proyectos creados para problemas reales</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-visual aqui-visual" aria-hidden="true">
+              <div class="admin-window">
+                <div class="window-bar"></div>
+                <div class="admin-layout">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Transporte comunitario</p>
+              <h3>AQUI</h3>
+              <p>
+                Sistema de gestion de conductores y ubicaciones para comunidades de transporte. Integra app Android,
+                backend Node.js, SQLite, JWT, WebSocket y panel web de administracion.
+              </p>
+              <ul class="project-points">
+                <li>Resolucion de sitios por GPS con seleccion manual.</li>
+                <li>Administracion de conductores, territorios y sitios.</li>
+                <li>Guardias de seguridad para evitar exponer secretos.</li>
+              </ul>
+              <a class="text-link" href="https://github.com/ennigmatico/aqui">Ver repositorio</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual emrg-visual" aria-hidden="true">
+              <div class="signal-ring"></div>
+              <div class="signal-ring small"></div>
+              <div class="center-button">SOS</div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Alertas en tiempo real</p>
+              <h3>EMRG Realtime</h3>
+              <p>
+                Plataforma de alerta comunitaria con app Android, backend Kotlin/Ktor, enrolamiento por QR,
+                notificaciones push, mapa en vivo y transmision de voz.
+              </p>
+              <ul class="project-points">
+                <li>Flujo emisor/receptor para alertas activas.</li>
+                <li>Firebase Cloud Messaging para despertar receptores.</li>
+                <li>OpenStreetMap sin dependencia de API key.</li>
+              </ul>
+              <a class="text-link" href="https://github.com/ennigmatico/emrg">Ver repositorio</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section capabilities-section">
+        <div class="section-heading">
+          <p class="eyebrow">Especialidad</p>
+          <h2>De la idea al sistema funcionando</h2>
+        </div>
+
+        <div class="capability-grid">
+          <article>
+            <span class="capability-number">01</span>
+            <h3>Apps Android nativas</h3>
+            <p>Kotlin, Jetpack Compose, permisos de ubicacion, pantallas operativas y pruebas en dispositivo real.</p>
+          </article>
+          <article>
+            <span class="capability-number">02</span>
+            <h3>Backends ligeros</h3>
+            <p>Node.js, Kotlin/Ktor, SQLite, APIs HTTP, autenticacion JWT y servicios preparados para VPS.</p>
+          </article>
+          <article>
+            <span class="capability-number">03</span>
+            <h3>Tiempo real</h3>
+            <p>WebSocket, Firebase Cloud Messaging, alertas activas, estados compartidos y ubicacion en vivo.</p>
+          </article>
+          <article>
+            <span class="capability-number">04</span>
+            <h3>Publicacion segura</h3>
+            <p>Variables de entorno, archivos de ejemplo, revision de secretos, Git ordenado y documentacion clara.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process-section">
+        <div class="section-heading">
+          <p class="eyebrow">Forma de trabajo</p>
+          <h2>Construyo en ciclos cortos y verificables</h2>
+        </div>
+        <div class="process-list">
+          <div>
+            <strong>Entender</strong>
+            <span>El problema, la comunidad, el flujo real y las restricciones del dispositivo.</span>
+          </div>
+          <div>
+            <strong>Construir</strong>
+            <span>Una version funcional con app, backend, datos y administracion minima.</span>
+          </div>
+          <div>
+            <strong>Probar</strong>
+            <span>Dispositivo real, red real, permisos, seguridad y escenarios de uso.</span>
+          </div>
+          <div>
+            <strong>Documentar</strong>
+            <span>README, variables, despliegue, mantenimiento y riesgos de seguridad.</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact-section">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Disponible para colaborar en productos moviles y sistemas comunitarios.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:lopezmendozaandres7@gmail.com">Enviar email</a>
+          <a class="button secondary" href="https://github.com/ennigmatico">Ver GitHub</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
