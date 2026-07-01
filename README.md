@@ -1,21 +1,28 @@
 # Hola, soy Andres Lopez
 
-Desarrollador enfocado en crear soluciones reales para comunidades, transporte local y respuesta en tiempo real. Trabajo principalmente con aplicaciones Android nativas, backends ligeros y sistemas que conectan ubicacion, usuarios, administracion y notificaciones en vivo.
+Desarrollador Mobile autodidacta enfocado en aplicaciones Android nativas con Kotlin, backends en tiempo real y administración de servidores VPS. Mi trabajo combina arquitectura de software, lógica de producto y metodologías modernas de desarrollo asistido por inteligencia artificial para llevar soluciones funcionales desde cero hasta producción.
 
-Me interesa construir productos utiles desde el primer dia: apps que funcionen en telefonos reales, paneles de administracion claros, despliegues controlados y proyectos cuidados para no exponer secretos ni credenciales.
+He estructurado mi formación de manera práctica: documentación oficial, terminal, pruebas en dispositivo real y construcción de proyectos aplicados a problemas reales como movilidad, geolocalización, alertas comunitarias, comunicación en tiempo real y administración de infraestructura.
 
-## En que estoy trabajando
+## Enfoque profesional
+
+- Desarrollo Android nativo con Kotlin, Jetpack Compose, ciclo de vida de apps y servicios en primer plano.
+- Integración de geolocalización, mapas, Firebase Cloud Messaging, WebSocket y flujos de audio/VoIP.
+- Backend e infraestructura con Node.js, Kotlin/Ktor, SQLite, APIs HTTP, VPS Linux, SSH, PM2 y HTTPS.
+- Desarrollo asistido por IA desde terminal e interfaces de comandos para acelerar debugging, arquitectura y entrega.
+- Seguridad de publicación: variables de entorno, archivos de ejemplo, revisión de secretos y repositorios mantenibles.
+
+## Proyectos destacados
 
 ### AQUI
 
-Sistema de gestion de conductores y ubicaciones para transporte comunitario.
+Sistema de gestión de conductores y ubicaciones para transporte comunitario.
 
 - App Android nativa con Kotlin y Jetpack Compose.
-- Backend Node.js con SQLite, autenticacion JWT y WebSocket.
-- Panel web de administracion para sitios, conductores y territorios.
-- Resolucion de sitios por GPS con seleccion manual para evitar entradas automaticas incorrectas.
-- Flujo de seguridad para no versionar `.env`, llaves de firma Android ni archivos sensibles.
-- Preparacion de despliegue para produccion en VPS con PM2, HTTPS y dominio propio.
+- Backend Node.js con SQLite, autenticación JWT y WebSocket.
+- Panel web de administración para sitios, conductores y territorios.
+- Resolución de sitios por GPS con selección manual para evitar entradas automáticas incorrectas.
+- Preparación de despliegue en VPS con PM2, HTTPS y dominio propio.
 
 Repositorio: https://github.com/ennigmatico/aqui
 
@@ -26,35 +33,33 @@ Sistema de alerta comunitaria en tiempo real.
 - App Android nativa con Kotlin y Jetpack Compose.
 - Backend Kotlin/Ktor para enrolamiento, WebSocket y alertas en vivo.
 - Enrolamiento por QR para comunidades autorizadas.
-- Ubicacion en mapa con OpenStreetMap.
+- Ubicación en mapa con OpenStreetMap.
 - Notificaciones push con Firebase Cloud Messaging.
-- Flujo de emisor/receptor para alertas activas.
-- Transmision de voz en tiempo real desde el emisor hacia los receptores.
+- Flujo emisor/receptor para alertas activas y transmisión de voz en tiempo real.
 
 Repositorio: https://github.com/ennigmatico/emrg
 
-## Tecnologias
+### Próximo proyecto comunitario
 
-- Android: Kotlin, Jetpack Compose, Gradle.
-- Backend: Node.js, Kotlin, Ktor.
-- Tiempo real: WebSocket, Firebase Cloud Messaging.
-- Datos: SQLite, archivos JSON controlados para configuracion inicial.
-- Operacion: VPS, PM2, PowerShell, SSH, HTTPS.
-- Seguridad: variables de entorno, archivos de ejemplo, `.gitignore`, revision antes de publicar.
+Estoy preparando la publicación de una plataforma nativa en Kotlin para gestión y activismo comunitario, con alertas, actualizaciones en tiempo real, módulos para recolectas y mecanismos de participación como votaciones o recolección de firmas digitales.
 
-## Lo que estoy fortaleciendo
+## Side projects y áreas aplicadas
 
-- Arquitectura de apps moviles conectadas a servicios reales.
-- Seguridad en publicacion de repositorios.
-- Despliegue y mantenimiento de backends en produccion.
-- Experiencia de usuario para herramientas comunitarias.
-- Documentacion tecnica clara para que otros puedan entender, instalar y mantener el proyecto.
+- Comunicación VoIP privada con identificadores internos generados dinámicamente.
+- Apps de movilidad y logística tipo taxi con GPS y mapas en tiempo real.
+- Páginas web y despliegues independientes en servidores VPS.
+- Sistemas comunitarios orientados a operación real, administración simple y respuesta rápida.
 
-## Forma de trabajo
+## Tecnologías
 
-Me gusta avanzar con ciclos cortos: construir, probar en dispositivo real, ajustar la experiencia, revisar seguridad y documentar. Priorizo que el software sea util, mantenible y entendible.
+`Kotlin` · `Jetpack Compose` · `Android` · `Node.js` · `Ktor` · `SQLite` · `WebSocket` · `Firebase Cloud Messaging` · `OpenStreetMap` · `Linux VPS` · `PM2` · `SSH` · `HTTPS` · `Git`
 
-## Contacto
+## Qué busco
 
+Integrarme a equipos dinámicos y startups que valoren la velocidad de entrega, la resolución de problemas reales y el desarrollo ágil impulsado por IA. Me interesa especialmente colaborar en productos móviles, sistemas comunitarios, plataformas en tiempo real e infraestructura ligera para producción.
+
+## Portafolio y contacto
+
+- Portafolio: https://ennigmatico.github.io/ennigmatico/portfolio/
 - GitHub: https://github.com/ennigmatico
 - Email: lopezmendozaandres7@gmail.com
