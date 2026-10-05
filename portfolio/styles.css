@@ -701,3 +701,6 @@ h3 {
     min-height: 220px;
   }
 }
+
+
+.hero-actions, .contact-actions, .nav-links { flex-wrap: wrap; }
